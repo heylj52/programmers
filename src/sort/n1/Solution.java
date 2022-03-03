@@ -9,7 +9,7 @@ public class Solution {
 		int[] array = new int[] {1, 5, 2, 6, 3, 7, 4};
 		int[][] commands = new int[][] {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
 		int[] result = solution(array, commands);
-		System.out.println(result);
+		System.out.println(Arrays.toString(result));
 	}
 	
     public static int[] solution(int[] array, int[][] commands) {
